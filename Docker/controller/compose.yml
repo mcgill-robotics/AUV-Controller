@@ -5,9 +5,10 @@ services:
     privileged: true
     stdin_open: true
     tty: true
+    ipc: host
 
     environment:
-      - ROS_DOMAIN_ID=10
+      - ROS_DOMAIN_ID=42
       - DISPLAY=${DISPLAY}
       - QT_X11_NO_MITSHM=1
       - UDEV=on

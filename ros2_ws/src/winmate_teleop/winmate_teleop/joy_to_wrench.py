@@ -17,7 +17,7 @@ class WrenchTeleop(Node):
 
         self.pub = self.create_publisher(
             Wrench,
-            '/control/effort',
+            '/controls/effort',
             10
         )
 
