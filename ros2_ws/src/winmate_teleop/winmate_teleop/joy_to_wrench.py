@@ -42,7 +42,7 @@ class WrenchTeleop(Node):
 
         # ---- ROTATION (RIGHT STICK) ----
         roll  = msg.axes[3]
-        pitch = msg.axes[4]
+        pitch = msg.axes[5]
         yaw   = msg.axes[2]
 
         wrench.torque.x = self.torque_scale * roll
