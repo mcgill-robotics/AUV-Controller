@@ -1,3 +1,0 @@
-[console_scripts]
-joy_to_wrench = winmate_teleop.joy_to_wrench:main
-

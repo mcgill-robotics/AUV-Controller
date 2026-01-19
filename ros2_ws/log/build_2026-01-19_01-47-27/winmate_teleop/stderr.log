@@ -1,5 +1,0 @@
-  File "/AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop/joy_to_wrench.py", line 1
-    mport rclpy
-          ^^^^^
-SyntaxError: invalid syntax
-
