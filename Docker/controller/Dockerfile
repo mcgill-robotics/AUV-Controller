@@ -12,6 +12,8 @@ RUN apt-get -y update -qq && apt-get install -y -qq \
     ros-humble-foxglove-bridge \
     x11-apps \
     tmux \
+    wget \
+    vim \
     && rm -rf /var/lib/apt/lists/*
 
 # Set shell to bash
