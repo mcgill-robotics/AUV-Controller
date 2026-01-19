@@ -1,0 +1,22 @@
+services:
+  controller:
+    build: .
+    network_mode: host
+    privileged: true
+    stdin_open: true
+    tty: true
+
+    environment:
+      - ROS_DOMAIN_ID=10
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - UDEV=on
+
+    volumes:
+      - /dev:/dev
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ~/.Xauthority:/root/.Xauthority:rw
+      - type: bind 
+        source: ../../../AUV-Controller
+        target: /root/AUV-Controller
+    command: bash -c ${OVERRIDE_COMMAND:-"tail -f /dev/null"}
