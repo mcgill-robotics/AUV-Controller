@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/winmate_teleop/winmate_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/winmate_teleop/winmate_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/winmate_teleop/winmate_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/winmate_teleop/winmate_teleop.egg-info/requires.txt
+writing top-level names to ../../build/winmate_teleop/winmate_teleop.egg-info/top_level.txt
+reading manifest file '../../build/winmate_teleop/winmate_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/winmate_teleop/winmate_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+copying winmate_teleop/joy_to_wrench.py -> /AUV-Controller/ros2_ws/build/winmate_teleop/build/lib/winmate_teleop
+running install
+running install_lib
+copying /AUV-Controller/ros2_ws/build/winmate_teleop/build/lib/winmate_teleop/joy_to_wrench.py -> /AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop
+byte-compiling /AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop/joy_to_wrench.py to joy_to_wrench.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/winmate_teleop/winmate_teleop.egg-info to /AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_to_wrench script to /AUV-Controller/ros2_ws/install/winmate_teleop/lib/winmate_teleop
+writing list of installed files to '/AUV-Controller/ros2_ws/build/winmate_teleop/install.log'

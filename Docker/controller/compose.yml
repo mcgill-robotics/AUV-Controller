@@ -18,5 +18,5 @@ services:
       - ~/.Xauthority:/root/.Xauthority:rw
       - type: bind 
         source: ../../../AUV-Controller
-        target: /root/AUV-Controller
+        target: /AUV-Controller
     command: bash -c ${OVERRIDE_COMMAND:-"tail -f /dev/null"}

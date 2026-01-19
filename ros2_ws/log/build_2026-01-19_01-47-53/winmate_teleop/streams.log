@@ -1,0 +1,24 @@
+[0.974s] Invoking command in '/AUV-Controller/ros2_ws/src/winmate_teleop': PYTHONPATH=/AUV-Controller/ros2_ws/build/winmate_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/winmate_teleop build --build-base /AUV-Controller/ros2_ws/build/winmate_teleop/build install --record /AUV-Controller/ros2_ws/build/winmate_teleop/install.log --single-version-externally-managed install_data
+[1.358s] running egg_info
+[1.359s] writing ../../build/winmate_teleop/winmate_teleop.egg-info/PKG-INFO
+[1.359s] writing dependency_links to ../../build/winmate_teleop/winmate_teleop.egg-info/dependency_links.txt
+[1.360s] writing entry points to ../../build/winmate_teleop/winmate_teleop.egg-info/entry_points.txt
+[1.360s] writing requirements to ../../build/winmate_teleop/winmate_teleop.egg-info/requires.txt
+[1.360s] writing top-level names to ../../build/winmate_teleop/winmate_teleop.egg-info/top_level.txt
+[1.363s] reading manifest file '../../build/winmate_teleop/winmate_teleop.egg-info/SOURCES.txt'
+[1.364s] writing manifest file '../../build/winmate_teleop/winmate_teleop.egg-info/SOURCES.txt'
+[1.365s] running build
+[1.365s] running build_py
+[1.365s] copying winmate_teleop/joy_to_wrench.py -> /AUV-Controller/ros2_ws/build/winmate_teleop/build/lib/winmate_teleop
+[1.366s] running install
+[1.366s] running install_lib
+[1.367s] copying /AUV-Controller/ros2_ws/build/winmate_teleop/build/lib/winmate_teleop/joy_to_wrench.py -> /AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop
+[1.368s] byte-compiling /AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop/joy_to_wrench.py to joy_to_wrench.cpython-310.pyc
+[1.369s] running install_data
+[1.370s] running install_egg_info
+[1.373s] removing '/AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop-0.0.0-py3.10.egg-info' (and everything under it)
+[1.374s] Copying ../../build/winmate_teleop/winmate_teleop.egg-info to /AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop-0.0.0-py3.10.egg-info
+[1.375s] running install_scripts
+[1.416s] Installing joy_to_wrench script to /AUV-Controller/ros2_ws/install/winmate_teleop/lib/winmate_teleop
+[1.416s] writing list of installed files to '/AUV-Controller/ros2_ws/build/winmate_teleop/install.log'
+[1.464s] Invoked command in '/AUV-Controller/ros2_ws/src/winmate_teleop' returned '0': PYTHONPATH=/AUV-Controller/ros2_ws/build/winmate_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/winmate_teleop build --build-base /AUV-Controller/ros2_ws/build/winmate_teleop/build install --record /AUV-Controller/ros2_ws/build/winmate_teleop/install.log --single-version-externally-managed install_data

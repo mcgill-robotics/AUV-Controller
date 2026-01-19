@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/winmate_teleop/winmate_teleop.egg-info
+writing ../../build/winmate_teleop/winmate_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/winmate_teleop/winmate_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/winmate_teleop/winmate_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/winmate_teleop/winmate_teleop.egg-info/requires.txt
+writing top-level names to ../../build/winmate_teleop/winmate_teleop.egg-info/top_level.txt
+writing manifest file '../../build/winmate_teleop/winmate_teleop.egg-info/SOURCES.txt'
+reading manifest file '../../build/winmate_teleop/winmate_teleop.egg-info/SOURCES.txt'
+writing manifest file '../../build/winmate_teleop/winmate_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /AUV-Controller/ros2_ws/build/winmate_teleop/build
+creating /AUV-Controller/ros2_ws/build/winmate_teleop/build/lib
+creating /AUV-Controller/ros2_ws/build/winmate_teleop/build/lib/winmate_teleop
+copying winmate_teleop/joy_to_wrench.py -> /AUV-Controller/ros2_ws/build/winmate_teleop/build/lib/winmate_teleop
+copying winmate_teleop/__init__.py -> /AUV-Controller/ros2_ws/build/winmate_teleop/build/lib/winmate_teleop
+running install
+running install_lib
+creating /AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop
+copying /AUV-Controller/ros2_ws/build/winmate_teleop/build/lib/winmate_teleop/joy_to_wrench.py -> /AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop
+copying /AUV-Controller/ros2_ws/build/winmate_teleop/build/lib/winmate_teleop/__init__.py -> /AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop
+byte-compiling /AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop/joy_to_wrench.py to joy_to_wrench.cpython-310.pyc
+byte-compiling /AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop/__init__.py to __init__.cpython-310.pyc
+  File "/AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop/joy_to_wrench.py", line 1
+    mport rclpy
+          ^^^^^
+SyntaxError: invalid syntax
+
+running install_data
+creating /AUV-Controller/ros2_ws/install/winmate_teleop/share/ament_index
+creating /AUV-Controller/ros2_ws/install/winmate_teleop/share/ament_index/resource_index
+creating /AUV-Controller/ros2_ws/install/winmate_teleop/share/ament_index/resource_index/packages
+copying resource/winmate_teleop -> /AUV-Controller/ros2_ws/install/winmate_teleop/share/ament_index/resource_index/packages
+copying package.xml -> /AUV-Controller/ros2_ws/install/winmate_teleop/share/winmate_teleop
+running install_egg_info
+Copying ../../build/winmate_teleop/winmate_teleop.egg-info to /AUV-Controller/ros2_ws/install/winmate_teleop/lib/python3.10/site-packages/winmate_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_to_wrench script to /AUV-Controller/ros2_ws/install/winmate_teleop/lib/winmate_teleop
+writing list of installed files to '/AUV-Controller/ros2_ws/build/winmate_teleop/install.log'
